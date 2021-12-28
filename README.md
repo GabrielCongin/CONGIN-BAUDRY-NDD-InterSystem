@@ -1,3 +1,14 @@
+# INTERSYSTEM PROJECT
+
+## Developpeurs
+
+  -  BAUDRY Manon
+  -  CONGIN Gabriel
+
+## Description
+
+Projet d'InterSystem de BAUDRY Manon et CONGIN Gabriel dans le cadre de la matière NDD de la formation Master MIAGE.
+
 ## Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
 
