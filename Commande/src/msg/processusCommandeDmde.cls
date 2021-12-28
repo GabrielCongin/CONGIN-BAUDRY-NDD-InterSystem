@@ -1,4 +1,4 @@
-Class msg.processusCommandeDmde Extends Ens.Request
+Class msg.processusCommandeDmde Extends (Ens.Request, %JSON.Adaptor)
 {
 
 Property marque As %String;

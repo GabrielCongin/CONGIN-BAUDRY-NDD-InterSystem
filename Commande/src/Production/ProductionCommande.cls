@@ -19,6 +19,8 @@ XData ProductionDefinition
   </Item>
   <Item Name="ProcessusCommande" Category="" ClassName="BP.ProcessusCommande" PoolSize="1" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
   </Item>
+  <Item Name="ServiceVoiture" Category="" ClassName="BS.ServiceVoiture" PoolSize="0" Enabled="true" Foreground="false" Comment="" LogTraceEvents="false" Schedule="">
+  </Item>
 </Production>
 }
 

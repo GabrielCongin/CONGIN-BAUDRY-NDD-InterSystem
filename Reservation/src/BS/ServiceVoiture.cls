@@ -8,12 +8,19 @@ Method OnProcessInput(pInput As %RegisteredObject, Output pOutput As %Registered
 {
     set tsc = $CASE(pHint,
         "creerVoiture":..creerVoiture(pInput,.pOutput),
+        "reserverVoiture":..reserverVoiture(pInput,.pOutput),
 	 	: $$$ERROR($$$NotImplemented)
     )
     Quit tsc
 }
 
 Method creerVoiture(pInput As %RegisteredObject, Output pOutput As %RegisteredObject) As %Status
+{
+    set tsc = ..SendRequestSync("Voiture",pInput,.pOutput)
+    Quit $$$OK
+}
+
+Method reserverVoiture(pInput As %RegisteredObject, Output pOutput As %RegisteredObject) As %Status
 {
     set tsc = ..SendRequestSync("Voiture",pInput,.pOutput)
     Quit $$$OK
